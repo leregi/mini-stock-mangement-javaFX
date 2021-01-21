@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:controller="controller.RegisterController" id="root-page" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="10.0" stylesheets="@../css/Register.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="username" prefHeight="37.0" promptText="Nom et Prenom" />
+      <TextField fx:id="email" prefHeight="37.0" promptText="Email" />
+      <PasswordField prefHeight="37.0" promptText="Mot de passe" />
+      <Button id="btn-register" mnemonicParsing="false" onAction="#registerClickHandler" prefHeight="37.0" prefWidth="605.0" stylesheets="@../css/Register.css" text="Enregistrer" />
+      <HBox alignment="CENTER_RIGHT" blendMode="HARD_LIGHT" prefHeight="54.0" prefWidth="480.0" styleClass="vbox-register">
+         <children>
+            <Label prefHeight="25.0" prefWidth="300.0" styleClass="conn-text" text="Avez-vous deja un compte ? connecter" />
+         </children>
+      </HBox>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets left="60.0" right="60.0" />
+   </padding>
+</VBox>

@@ -1,0 +1,18 @@
+#root-page{
+  -fx-background-color: #FFF;
+}
+
+#btn-register {
+  -fx-background-color: #1B1850;
+  -fx-text-fill:  #FFF;
+  -fx-font-size: 16px;
+}
+
+.conn-text {
+  -fx-font-weight: bold;
+  -fx-font-size: 16px
+}
+
+.vbox-register {
+ -fx-background-color: #FFF;
+}

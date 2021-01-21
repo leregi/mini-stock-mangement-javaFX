@@ -1,0 +1,16 @@
+#left-pane {
+ -fx-background-color: #1B1858;
+}
+#right-pane {
+  -fx-background-color: #FFF;
+}
+
+#btn-connect {
+ -fx-text-fill: #FFF;
+ -fx-font-size: 16px;
+ -fx-background-color: #1B1850;
+}
+.register-link {
+  -fx-font-weight: bold;
+  -fx-font-size: 14px;
+}
