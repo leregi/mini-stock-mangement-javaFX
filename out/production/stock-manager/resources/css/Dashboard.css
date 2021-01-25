@@ -1,0 +1,14 @@
+#right-toolbar {
+ -fx-alignment: CENTER_RIGHT;
+}
+#left-toolbar {
+ -fx-alignment: CENTER_LEFT;
+ -fx-background-color: transparent;
+}
+
+.toolbar-btn {
+ -fx-border-width: 0;
+ -fx-background-color: transparent;
+ -fx-font-size: 16px;
+ -fx-margin-left: 3px;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<HBox prefHeight="64.0" prefWidth="600.0">
+    <children>
+        <HBox prefHeight="58.0" prefWidth="314.0">
+            <children>
+                <ToolBar id="left-toolbar" prefHeight="40.0" prefWidth="295.0">
+                    <items>
+                        <Button mnemonicParsing="false" styleClass="toolbar-btn" text="Client" textAlignment="CENTER">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                    </items>
+                    <items>
+                        <Button mnemonicParsing="false" styleClass="toolbar-btn" text="Produit" textAlignment="CENTER">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                    </items>
+                    <items>
+                        <Button mnemonicParsing="false" styleClass="toolbar-btn" text="Transaction" textAlignment="CENTER">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                    </items>
+                </ToolBar>
+            </children>
+        </HBox>
+    </children>
+</HBox>
