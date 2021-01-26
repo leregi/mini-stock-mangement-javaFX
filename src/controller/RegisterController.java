@@ -21,7 +21,7 @@ public class RegisterController implements Initializable {
 
     public void registerClickHandler(ActionEvent event) {
         try {
-            Parent dashboard = FXMLLoader.load(getClass().getResource(nav.getDashboard()));
+            Parent dashboard = FXMLLoader.load(getClass().getResource(nav.getClient()));
             Scene dashboard_scene = new Scene(dashboard, 1000, 550);
             Stage app_stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
             app_stage.hide();

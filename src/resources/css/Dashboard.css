@@ -12,3 +12,7 @@
  -fx-font-size: 16px;
  -fx-margin-left: 3px;
 }
+#add-btn {
+  -fx-background-color: #1B1850;
+  -fx-text-fill: #FFF;
+}

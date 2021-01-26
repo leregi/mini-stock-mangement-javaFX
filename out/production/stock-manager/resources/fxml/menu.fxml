@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<?import javafx.scene.text.Font?>
-<HBox prefHeight="64.0" prefWidth="600.0">
+<HBox prefHeight="64.0" prefWidth="600.0" fx:controller="controller.MenuController" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
     <children>
         <HBox prefHeight="58.0" prefWidth="314.0">
             <children>
                 <ToolBar id="left-toolbar" prefHeight="40.0" prefWidth="295.0">
                     <items>
-                        <Button mnemonicParsing="false" styleClass="toolbar-btn" text="Client" textAlignment="CENTER">
+                        <Button fx:id="clientLink" mnemonicParsing="false" onAction="#clientLinkHandler" styleClass="toolbar-btn" text="Client" textAlignment="CENTER">
                             <font>
                                 <Font size="14.0" />
                             </font>
                         </Button>
                     </items>
                     <items>
-                        <Button mnemonicParsing="false" styleClass="toolbar-btn" text="Produit" textAlignment="CENTER">
+                        <Button fx:id="productLink" mnemonicParsing="false" onAction="#productLinkHandler" styleClass="toolbar-btn" text="Produit" textAlignment="CENTER">
                             <font>
                                 <Font size="14.0" />
                             </font>
                         </Button>
                     </items>
                     <items>
-                        <Button mnemonicParsing="false" styleClass="toolbar-btn" text="Transaction" textAlignment="CENTER">
+                        <Button fx:id="transactionLink" mnemonicParsing="false" onAction="#transactionLinkHandler" styleClass="toolbar-btn" text="Transaction" textAlignment="CENTER">
                             <font>
                                 <Font size="14.0" />
                             </font>

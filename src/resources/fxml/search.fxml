@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox alignment="CENTER_LEFT" prefHeight="44.0" prefWidth="308.0" spacing="5.0">
+    <children>
+        <TextField prefHeight="25.0" prefWidth="195.0" promptText="rechercher un client" />
+        <Button mnemonicParsing="false" text="Ok" />
+    </children>
+</HBox>
